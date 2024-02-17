@@ -1,0 +1,101 @@
+.konten
+{
+  position: sticky;
+  top: 170px;
+  display: inline-block;
+  float: left;
+}
+
+.left-side
+{
+  background: rgba(30,30,30, 0.9);
+}
+
+.list-rightSide-page02
+{
+  padding: 0px;
+  margin: 0px;
+  width: 160px;
+}
+
+.list-rightSide-page02 li
+{
+  cursor: pointer;
+  list-style:none;
+  transition: all 0.17s;
+  padding: 10px 0px 10px 15px;
+  width: 150px;
+}
+
+.list-rightSide-page02 li:hover
+{
+  width: 170px;
+  background-color:#4d4d4d;
+}
+
+.konten-utama
+{
+  margin: 0px 230px 0px 230px;
+}
+
+.isian-konten
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-kontenPage3
+{
+  position: absolute;
+}
+
+.list-container
+{
+  position: sticky;
+  top: 105px;
+}
+
+.list
+{
+  display: block;
+}
+
+/* Style the tab */
+.tab {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: 	#1e1e1e;
+  flex: 1;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #3c3c3c;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 0.4s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
